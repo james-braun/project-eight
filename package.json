@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/james-braun/full-stack-project-eight-master.git"
+    "url": "git+https://github.com/james-braun/project-eight.git"
   },
   "author": "James Braun",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/james-braun/full-stack-project-eight-master/issues"
+    "url": "https://github.com/james-braun/project-eight/issues"
   },
-  "homepage": "https://github.com/james-braun/full-stack-project-eight-master#readme",
+  "homepage": "https://github.com/james-braun/project-eight#readme",
   "dependencies": {
     "express": "^4.17.1",
     "lodash": "^4.17.14",
