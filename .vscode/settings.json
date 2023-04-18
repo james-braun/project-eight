@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/6cbc0ca2-ea2f-451a-a7a4-7e648e7ec880/resourceGroups/full-stack-project-eight/providers/Microsoft.Web/sites/full-stack-project-eight",
+    "appService.deploySubpath": "."
+}
