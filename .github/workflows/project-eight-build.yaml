@@ -30,15 +30,13 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: v16.x
+          node-version: v18.x
 
       - name: Build Node assets
         env:
           CI: true
           SITE_URL: ${{ inputs.site-url }}
-        run: |
-          npm install
-          npm start
+        run: npm ci
 
 # Please do not touch the following action
       - name: Store deployment content
@@ -46,7 +44,7 @@ jobs:
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-us.ionos.space
-          project-id: f61d4e11-e7da-4e5d-ab20-4af80d7d645b
+          project-id: 72211a5c-f420-482f-8c7e-b7ef928fa64a
           branch-id: ${{ inputs.branch-id }}
           version: ${{ github.sha }}
           folder: ${{ env.DEPLOYMENT_FOLDER }}
